@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <title>Form html</title>
+    <style>
+        fieldset {
+            width: 300px;
+            height: 150px;
+
+        }
+
+        h5 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Baro Ana Pitha House:</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.htm">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic-tags.html">Semantic</a></li>
+                <li><a href="audio.video.html">Media</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="">
+        <label for="fname">Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter Your Name">
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" placeholder="example@gmail.com">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Select Your Pitha:</legend><br>
+
+            <input type="radio" name="pitha" id="chitoi">
+            <label for="chitoi">Chitoi</label>
+            <br>
+            <br>
+            <input type="radio" name="pitha" id="vhapa">
+            <label for="vhapa">Vhapa</label>
+            <br>
+            <br>
+            <input type="radio" name="pitha" id="puya">
+            <label for="puya">Puya</label>
+
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Select Your Vorta:</legend><br>
+            <input type="checkbox" name="sutki" id="sutki">
+            <label for="sutki">Sutki</label>
+            <br>
+            <br>
+            <input type="checkbox" name="shorisha" id="shorisha">
+            <label for="shorisha">Shorisha</label>
+            <br>
+            <br>
+            <input type="checkbox" name="dhoniya" id="dhoniya">
+            <label for="dhoniya">Dhoniya</label>
+        </fieldset>
+        <br>
+        <br>
+        <label for="special">Special Note Or Requirement:</label>
+        <br>
+        <textarea name="special" id="special" cols="30" rows="10">Please note something if you have any extra service like: parcel
+        </textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <footer>
+        <h5>copyright@2022</h5>
+    </footer>
+
+
+</body>
+
+</html>

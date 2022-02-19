@@ -1,0 +1,43 @@
+nav > ul{              
+    /* why we use > sign cause we want only navs immediate child css this reason */
+    display: flex;
+   
+    
+}
+nav li {
+    font-size: 20px;
+    margin-right: 160px;
+    text-align: center;
+    list-style: none;
+    
+
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+
+}
+nav {
+    position: relative;
+    left: 40px;
+}
+nav li:hover{
+    background-color: lightgray;
+}
+nav > ul > li:hover > ul{
+    display: block;
+    margin: 0;
+}
+
+.dropdown{
+    display: none;  
+    /* display: none; means hide this item */
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color: rgb(221, 221, 64);
+}
+.dropdown li{
+    margin: 0;
+}
